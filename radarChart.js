@@ -273,6 +273,22 @@ function RadarChart(id, data, options) {
         .style("fill", "#8CD9FF")  
         .text("% variability");
 
+    svg.append("text")
+        .attr("x", (width / 9.3))             
+        .attr("y", 135 - (margin.top / 2))
+        .attr("text-anchor", "middle")
+        .style("font-size", "16px") 
+        .style("fill", "white")  
+        .text("sample:");
+
+    svg.append("text")
+        .attr("x", (width / 3.4))             
+        .attr("y", 135 - (margin.top / 2))
+        .attr("text-anchor", "middle")
+        .style("font-size", "16px") 
+        .style("fill", "#76ADDB")  
+        .text("% trajectories");
+
   /////////////////////////////////////////////////////////
   ///////////// Draw the radar chart blobs ////////////////
   /////////////////////////////////////////////////////////

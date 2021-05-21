@@ -248,6 +248,15 @@ function RadarChart(id, data, options) {
     })
     .call(wrap, cfg.wrapWidth);
 
+    svg.append("text")
+        .attr("x", (width / 4.8))             
+        .attr("y", 75 - (margin.top / 2))
+        .attr("text-anchor", "middle")
+        .style("font-size", "24px") 
+        .style("font-weight", "bold")
+        .style("fill", "white")  
+        .text("MANEUVERS");
+
   /////////////////////////////////////////////////////////
   ///////////// Draw the radar chart blobs ////////////////
   /////////////////////////////////////////////////////////

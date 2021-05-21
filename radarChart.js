@@ -257,6 +257,22 @@ function RadarChart(id, data, options) {
         .style("fill", "white")  
         .text("MANEUVERS");
 
+    svg.append("text")
+        .attr("x", (width / 4.2))             
+        .attr("y", 95 - (margin.top / 2))
+        .attr("text-anchor", "middle")
+        .style("font-size", "16px") 
+        .style("fill", "white")  
+        .text("initiate: % ground track");
+
+    svg.append("text")
+        .attr("x", (width / 3.6))             
+        .attr("y", 115 - (margin.top / 2))
+        .attr("text-anchor", "middle")
+        .style("font-size", "16px") 
+        .style("fill", "#8CD9FF")  
+        .text("% variability");
+
   /////////////////////////////////////////////////////////
   ///////////// Draw the radar chart blobs ////////////////
   /////////////////////////////////////////////////////////

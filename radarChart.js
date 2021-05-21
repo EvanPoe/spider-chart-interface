@@ -32,24 +32,24 @@ var data = [
     { axis: "PHUGOID MOTION", value: 60 },
     { axis: "ENERGY SCRUB", value: 52 },
   ],
-//   [
-//     //Kinzhal
-//     { axis: "BALLISTIC", value: 0.27 },
-//     { axis: "Glide", value: 0.16 },
-//     { axis: "20G TURN", value: 0.35 },
-//     { axis: "FISH HOOK DIVE", value: 0.13 },
-//     { axis: "PHUGOID MOTION", value: 0.2 },
-//     { axis: "ENERGY SCRUB", value: 0.13 },
-//   ],
-//   [
-//     //Example Missile Overlay
-//     { axis: "BALLISTIC", value: 0.26 },
-//     { axis: "Glide", value: 0.1 },
-//     { axis: "20G TURN", value: 0.3 },
-//     { axis: "FISH HOOK DIVE", value: 0.14 },
-//     { axis: "PHUGOID MOTION", value: 0.22 },
-//     { axis: "ENERGY SCRUB", value: 0.04 },
-//   ],
+  //   [
+  //     //Kinzhal
+  //     { axis: "BALLISTIC", value: 0.27 },
+  //     { axis: "Glide", value: 0.16 },
+  //     { axis: "20G TURN", value: 0.35 },
+  //     { axis: "FISH HOOK DIVE", value: 0.13 },
+  //     { axis: "PHUGOID MOTION", value: 0.2 },
+  //     { axis: "ENERGY SCRUB", value: 0.13 },
+  //   ],
+  //   [
+  //     //Example Missile Overlay
+  //     { axis: "BALLISTIC", value: 0.26 },
+  //     { axis: "Glide", value: 0.1 },
+  //     { axis: "20G TURN", value: 0.3 },
+  //     { axis: "FISH HOOK DIVE", value: 0.14 },
+  //     { axis: "PHUGOID MOTION", value: 0.22 },
+  //     { axis: "ENERGY SCRUB", value: 0.04 },
+  //   ],
 ];
 //////////////////////////////////////////////////////////////
 //////////////////// Draw the Chart //////////////////////////

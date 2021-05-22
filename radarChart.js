@@ -274,7 +274,7 @@ function RadarChart(id, data, options) {
         .text("% variability");
 
     svg.append("text")
-        .attr("x", (width / 9.3))             
+        .attr("x", (width / 8))             
         .attr("y", 135 - (margin.top / 2))
         .attr("text-anchor", "middle")
         .style("font-size", "16px") 
